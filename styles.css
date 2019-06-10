@@ -18,6 +18,16 @@ body {
     grid-template-columns: 30% 40% 30%;
     grid-gap: 1px;
 }
+.container > div{
+    background: cadetblue;
+    padding: 2px;
+}
+.container > div:nth-child(1){
+    background: cornflowerblue;
+}
+.container > div:nth-last-child(4){
+    background: cyan;
+}
 #banner {
     background-image: url(images/Wisdom.jpeg);
     background-size: cover;
